@@ -1,0 +1,4 @@
+C:\Users\oksan\source\repos\prac2\prac2\obj\Debug\net8.0\prac2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oksan\source\repos\prac2\prac2\obj\Debug\net8.0\prac2.AssemblyInfoInputs.cache
+C:\Users\oksan\source\repos\prac2\prac2\obj\Debug\net8.0\prac2.AssemblyInfo.cs
+C:\Users\oksan\source\repos\prac2\prac2\obj\Debug\net8.0\prac2.csproj.CoreCompileInputs.cache
