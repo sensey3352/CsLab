@@ -12,10 +12,7 @@ namespace HospitalManagementSystem
 
         public void Run()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-
             AddTestData();
-
             while (true)
             {
                 ShowMenu();
@@ -129,3 +126,4 @@ namespace HospitalManagementSystem
         }
     }
 }
+
