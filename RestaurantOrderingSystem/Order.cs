@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RestaurantOrderingSystem
 {
-    public class Order : IOrder
+    public class Order 
     {
         public int Id { get; private set; }
         public int TableNumber { get; private set; }
@@ -56,3 +56,4 @@ namespace RestaurantOrderingSystem
         }
     }
 }
+
