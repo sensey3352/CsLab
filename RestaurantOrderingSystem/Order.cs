@@ -11,22 +11,22 @@ namespace RestaurantOrderingSystem
         public int Id { get; private set; }
         public int TableNumber { get; private set; }
         public string Status { get; private set; }
-        public List<IMenuItem> Items { get; private set; }
+        public List<MenuItem> Items { get; private set; }
 
         public Order(int id, int tableNumber)
         {
             Id = id;
             TableNumber = tableNumber;
             Status = OrderStatus.New;
-            Items = new List<IMenuItem>();
+            Items = new List<MenuItem>();
         }
 
-        public void AddItem(IMenuItem item)
+        public void AddItem(MenuItem item)
         {
             Items.Add(item);
         }
 
-        public void RemoveItem(IMenuItem item)
+        public void RemoveItem(MenuItem item)
         {
             Items.Remove(item);
         }
@@ -56,4 +56,5 @@ namespace RestaurantOrderingSystem
         }
     }
 }
+
 
