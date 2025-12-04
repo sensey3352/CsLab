@@ -9,17 +9,17 @@ namespace RestaurantOrderingSystem
     public class Restaurant
     {
         public string Name { get; private set; }
-        public List<IMenuItem> MenuItems { get; private set; }
+        public List<MenuItem> MenuItems { get; private set; }
         public List<Order> Orders { get; private set; }
 
         public Restaurant(string name)
         {
             Name = name;
-            MenuItems = new List<IMenuItem>();
+            MenuItems = new List<MenuItem>();
             Orders = new List<Order>();
         }
 
-        public void AddMenuItem(IMenuItem item)
+        public void AddMenuItem(MenuItem item)
         {
             MenuItems.Add(item);
         }
@@ -72,9 +72,9 @@ namespace RestaurantOrderingSystem
             return null;
         }
 
-        public List<IMenuItem> FindItemsByCategory(string category)
+        public List<MenuItem> FindItemsByCategory(string category)
         {
-            List<IMenuItem> foundItems = new List<IMenuItem>();
+            List<MenuItem> foundItems = new List<MenuItem>();
             foreach (var item in MenuItems)
             {
                 if (item.Category == category)
@@ -86,4 +86,5 @@ namespace RestaurantOrderingSystem
         }
     }
 }
+
 
