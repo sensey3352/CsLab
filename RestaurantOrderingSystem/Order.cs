@@ -24,6 +24,7 @@ namespace RestaurantOrderingSystem
         public void AddItem(MenuItem item)
         {
             Items.Add(item);
+            Console.WriteLine($"До замовлення додано: {item.Name} ");
         }
 
         public void RemoveItem(MenuItem item)
@@ -56,5 +57,6 @@ namespace RestaurantOrderingSystem
         }
     }
 }
+
 
 
