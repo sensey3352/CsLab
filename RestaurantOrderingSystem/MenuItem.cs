@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RestaurantOrderingSystem
 {
-    public abstract class MenuItem : IMenuItem
+    public abstract class MenuItem 
     {
         public string Name { get; protected set; }
         public decimal Price { get; protected set; }
@@ -22,3 +22,4 @@ namespace RestaurantOrderingSystem
         public abstract string GetDescription();
     }
 }
+
