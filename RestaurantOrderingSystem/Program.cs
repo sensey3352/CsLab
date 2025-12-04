@@ -32,11 +32,9 @@
 
             var newOrder = new Order(1, 5);
 
-            newOrder.AddItem(restaurant.MenuItems[3]); 
-            Console.WriteLine("Додано позицію: Салат Цезар");
+            newOrder.AddItem(restaurant.MenuItems[3]);
 
             newOrder.AddItem(restaurant.MenuItems[8]);
-            Console.WriteLine("Додано позицію: Кава");
 
             Console.WriteLine($"Поточна сума: {newOrder.CalculateTotal()} грн");
             Console.WriteLine();
@@ -88,3 +86,4 @@
         }
     }
 }
+
